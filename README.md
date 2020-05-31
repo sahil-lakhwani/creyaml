@@ -8,10 +8,4 @@ Generate example CR yaml from a CRD
  
 ## Usage
 
-### Using pipes
-
-  `cat crd.yaml | creyaml`
-
-### Using file
-
-   `creyaml --file crd.yaml`
+`kubectl get crd example.domain.com -o yaml | creyaml`
