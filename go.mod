@@ -1,4 +1,4 @@
-module some
+module github.com/sahil-lakhwani/creyaml
 
 go 1.13
 
